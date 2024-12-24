@@ -1,0 +1,98 @@
+.home-cont{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.logout{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout-btn{
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.todo-cont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input-add{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.todo-input{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    
+}
+
+.add-btn{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 20%;
+}
+
+.todo-list{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.update{
+    padding: 5px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-cont{
+        width: 100%;   
+    }  
+    
+    .todo-input{
+        width: 100%;
+    }
+}
